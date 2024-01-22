@@ -1,3 +1,7 @@
+<script>
+	import { base } from '$app/paths';
+</script>
+
 <svelte:head>
 	<title>About Me</title>
 	<meta property="og:type" content="about me" />
@@ -29,8 +33,9 @@
 			technology, and ultimately learning some new ropes along the path.
 		</p>
 		<p>
-			You will definitely be interested in seeing <a href="/resume">my resume</a> as well as
-			<a href="/portfolio">my portfolios.</a>
+			You will definitely be interested in seeing <a href={`${base}/resume`}>my resume</a> as well
+			as
+			<a href={`${base}/portfolio`}>my portfolios.</a>
 		</p>
 	</div>
 </article>
