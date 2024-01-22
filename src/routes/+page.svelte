@@ -28,10 +28,14 @@
 			building products/services that bring comfort to people, helping rescue businesses by using
 			technology, and ultimately learning some new ropes along the path.
 		</p>
+		<p>
+			You will definitely be interested in seeing <a href="/resume">my resume</a> as well as
+			<a href="/portfolio">my portfolios.</a>
+		</p>
 	</div>
 </article>
 
-<article class="abouts">
+<!-- <article class="abouts">
 	<h2>About my country, Nigeria</h2>
 	<p>
 		Nigeria is located on the west coast of Africa and is the most populous black country in the
@@ -42,7 +46,7 @@
 		Yoruba in the south-west and Hausa in the north. However, the one common language that everyone
 		speaks is Pidgin and we created Afrobeats!
 	</p>
-</article>
+</article> -->
 
 <article class="abouts">
 	<h2>Hobbies</h2>
@@ -94,6 +98,13 @@
 	.abouts p {
 		line-height: 1.75;
 		margin-bottom: 1rem;
+	}
+
+	a {
+		color: #1f5270;
+		font-size: 1rem;
+		font-weight: normal;
+		font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	}
 
 	@media screen and (min-width: 500px) {

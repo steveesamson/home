@@ -26,7 +26,7 @@
 			<h2>Professional Experience</h2>
 			<article class="experience">
 				<h3>
-					Front-End Engineer <em>| JUN 2022 – Present</em>
+					Senior Front-End Engineer <em>| JUN 2022 – Present</em>
 					<small>
 						Indeed | United States - <a href="http://www.indeed.com" target="_blank"
 							>www.indeed.com</a
@@ -59,7 +59,7 @@
 			</article>
 			<article class="experience">
 				<h3>
-					Front-End Engineer <em>| OCT 2021 – APR 2022</em>
+					Senior Front-End Engineer <em>| OCT 2021 – APR 2022</em>
 					<small
 						>Cvent | Orlando, United States - <a href="https://www.cvent.com" target="_blank"
 							>www.cvent.com</a
@@ -90,7 +90,7 @@
 			</article>
 			<article class="experience">
 				<h3>
-					Team Lead <em>| NOV 2019 – OCT 2021</em><small
+					Lead Front-End Engineer <em>| NOV 2019 – OCT 2021</em><small
 						>Roadpass Digital (Togo Group), United States - <a
 							href="http://www.roadpass.com"
 							target="_blank">www.roadpass.com</a
@@ -220,12 +220,12 @@
 
 		<ul>
 			<li>
-				<strong>Postgrad, Mobile Solutions Development:</strong> Conestoga College, ON, Waterloo, Canada.
-				- Ongoing
+				<strong>Postgraduate, Mobile Solutions Development:</strong> Conestoga College, ON, Waterloo,
+				Canada. - Ongoing
 			</li>
 			<li>
-				<strong>B.Sc., Computer Engineering (2.1, 4.10/5.0 CGPA):</strong> Obafemi Awolowo University,
-				Ile-Ife, Nigeria.
+				<strong>Bachelors of Science, Computer Engineering:</strong> Obafemi Awolowo University, Ile-Ife,
+				Nigeria.
 			</li>
 		</ul>
 
