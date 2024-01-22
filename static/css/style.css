@@ -1,0 +1,39 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+p,
+li {
+    line-height: 1.65;
+    font-size: 1rem;
+}
+
+h1,
+h2,
+h3 {
+    margin-block: 3rem;
+}
+
+.container {
+    width: min(100%, 65em);
+    text-align: left;
+    padding: 0 1rem;
+}
+
+@media screen and (min-width: 40rem) {
+    .container {
+        margin-inline: auto;
+    }
+}
