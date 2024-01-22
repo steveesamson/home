@@ -1,27 +1,4 @@
-<!doctype html>
-<html lang="en">
-
-<head>
-	<meta charset="utf-8" />
-	<link rel="icon" href="./favicon.png" />
-	<link rel="stylesheet" href="./css/style.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	
-		<link href="./_app/immutable/assets/0.e_iDUQ2U.css" rel="stylesheet">
-		<link href="./_app/immutable/assets/4.eQEhqq0q.css" rel="stylesheet">
-		<link rel="modulepreload" href="./_app/immutable/entry/start.DRzRaqrt.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/entry.cT1XNdoO.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.kAlY8CUs.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/paths.197Hhgcu.js">
-		<link rel="modulepreload" href="./_app/immutable/entry/app.gkznLSDN.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/index.niZBfMVO.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/0.rZ1BPXRN.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/stores.u4zJXcUU.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/4.dj-ldclp.js"><title>My Resume</title><!-- HEAD_svelte-g7p08j_START --><meta property="og:type" content="my resume"><meta property="og:title" content="My Resume"><!-- HEAD_svelte-g7p08j_END -->
-</head>
-
-<body data-sveltekit-preload-data="hover">
-	<div style="display: contents">  <header class="svelte-3cndcb"><section class="container svelte-3cndcb"><div data-svelte-h="svelte-1war6t"><strong class="svelte-3cndcb">Steve S. Samson</strong> <em class="svelte-3cndcb">- The Software Enthusiast -</em></div> <nav class="svelte-3cndcb"><a href="./" title="Home - About me" class="svelte-3cndcb" data-svelte-h="svelte-244p61">Home</a> <a href="./resume" title="My Resume" class="svelte-3cndcb active" data-svelte-h="svelte-urqa3h">Resume</a> <a href="./portfolio" title="My Portfolio" class="svelte-3cndcb" data-svelte-h="svelte-1g4blwv">Portfolios</a></nav></section></header> <main class="container"> <div class="container main-wrapper svelte-dcn5gn" data-svelte-h="svelte-1ixv8o3"><main class="svelte-dcn5gn"><h1 class="svelte-dcn5gn">Summary</h1> <article class="summary"><div class="summary-text svelte-dcn5gn"><p class="svelte-dcn5gn">Results-driven software engineer with over a decade of experience designing and
+import{s as h,n as o}from"../chunks/scheduler.kAlY8CUs.js";import{S as u,i as w,e as r,s as S,k as f,c as d,d as a,f as b,l as y,m as c,h as m,g as p}from"../chunks/index.niZBfMVO.js";function k(v){let e,t,i,s,g=`<main class="svelte-dcn5gn"><h1 class="svelte-dcn5gn">Summary</h1> <article class="summary"><div class="summary-text svelte-dcn5gn"><p class="svelte-dcn5gn">Results-driven software engineer with over a decade of experience designing and
 					implementing Frontend and Backend solutions using JavaScript, TypeScript, Node.js,
 					Express.js, React.js, and Svelte/SvelteKit.</p> <p class="svelte-dcn5gn">Proven expertise in Agile practices, leading teams to deliver complete solutions,
 					migrating services, and developing core products. Translate software ideas into practical
@@ -52,32 +29,4 @@
 				Solutions and Messaging Middleware using Java, TypeScript/JavaScript, Node.js, Express.js, Web
 				Socket/socket.io, and Redis.</li> <li class="svelte-dcn5gn"><strong class="svelte-dcn5gn">DevOps:</strong> Linux Administration, Docker, Ansible, Git, Github, testing library,
 				Playwright, Jest, Cypress, Vite test</li> <li class="svelte-dcn5gn"><strong class="svelte-dcn5gn">Data Stores:</strong> MySQL, Oracle Database, PostgreSQL, MongoDB, Redis, Kafka</li></ul> <h3 class="svelte-dcn5gn">Education</h3> <ul class="svelte-dcn5gn"><li class="svelte-dcn5gn"><strong class="svelte-dcn5gn">Postgraduate, Mobile Solutions Development (2023 - DEC 2024):</strong> Conestoga College,
-				ON, Waterloo, Canada.</li> <li class="svelte-dcn5gn"><strong class="svelte-dcn5gn">Bachelor, Computer Engineering:</strong> Obafemi Awolowo University, Ile-Ife, Nigeria.</li></ul> <h3 class="svelte-dcn5gn">Contacts:</h3> <ul class="contacts svelte-dcn5gn"><li class="svelte-dcn5gn"><strong class="svelte-dcn5gn">Email:</strong> stevee.samson@gmail.com</li> <li class="svelte-dcn5gn"><strong class="svelte-dcn5gn">LinkedIn:</strong> <a href="https://linkedin.com/in/steveesamson" target="_blank" class="svelte-dcn5gn">linkedin.com/in/steveesamson</a></li> <li class="svelte-dcn5gn"><strong class="svelte-dcn5gn">Github:</strong> <a href="https://github.com/steveesamson" target="_blank" class="svelte-dcn5gn">github.com/steveesamson</a></li> <li class="svelte-dcn5gn"><strong class="svelte-dcn5gn">X(twitter):</strong> @steveesamson</li> <li class="svelte-dcn5gn"><strong class="svelte-dcn5gn">Address:</strong> Waterloo, ON, Canada</li></ul></aside> </div></main> <footer class="svelte-3cndcb"><section class="container svelte-3cndcb"><nav class="svelte-3cndcb"><a href="./" title="Home - About me" class="svelte-3cndcb" data-svelte-h="svelte-244p61">Home</a> <a href="./resume" title="My Resume" class="svelte-3cndcb active" data-svelte-h="svelte-urqa3h">Resume</a> <a href="./portfolio" title="My Portfolio" class="svelte-3cndcb" data-svelte-h="svelte-1g4blwv">Portfolios</a></nav></section> <section class="container svelte-3cndcb">© 2019 - 2024, Steve S. Samson</section> </footer> 
-			
-			<script>
-				{
-					__sveltekit_1kbmlrl = {
-						base: new URL(".", location).pathname.slice(0, -1)
-					};
-
-					const element = document.currentScript.parentElement;
-
-					const data = [null,null];
-
-					Promise.all([
-						import("./_app/immutable/entry/start.DRzRaqrt.js"),
-						import("./_app/immutable/entry/app.gkznLSDN.js")
-					]).then(([kit, app]) => {
-						kit.start(app, element, {
-							node_ids: [0, 4],
-							data,
-							form: null,
-							error: null
-						});
-					});
-				}
-			</script>
-		</div>
-</body>
-
-</html>
+				ON, Waterloo, Canada.</li> <li class="svelte-dcn5gn"><strong class="svelte-dcn5gn">Bachelor, Computer Engineering:</strong> Obafemi Awolowo University, Ile-Ife, Nigeria.</li></ul> <h3 class="svelte-dcn5gn">Contacts:</h3> <ul class="contacts svelte-dcn5gn"><li class="svelte-dcn5gn"><strong class="svelte-dcn5gn">Email:</strong> stevee.samson@gmail.com</li> <li class="svelte-dcn5gn"><strong class="svelte-dcn5gn">LinkedIn:</strong> <a href="https://linkedin.com/in/steveesamson" target="_blank" class="svelte-dcn5gn">linkedin.com/in/steveesamson</a></li> <li class="svelte-dcn5gn"><strong class="svelte-dcn5gn">Github:</strong> <a href="https://github.com/steveesamson" target="_blank" class="svelte-dcn5gn">github.com/steveesamson</a></li> <li class="svelte-dcn5gn"><strong class="svelte-dcn5gn">X(twitter):</strong> @steveesamson</li> <li class="svelte-dcn5gn"><strong class="svelte-dcn5gn">Address:</strong> Waterloo, ON, Canada</li></ul></aside>`;return{c(){e=r("meta"),t=r("meta"),i=S(),s=r("div"),s.innerHTML=g,this.h()},l(n){const l=f("svelte-g7p08j",document.head);e=d(l,"META",{property:!0,content:!0}),t=d(l,"META",{property:!0,content:!0}),l.forEach(a),i=b(n),s=d(n,"DIV",{class:!0,"data-svelte-h":!0}),y(s)!=="svelte-1ixv8o3"&&(s.innerHTML=g),this.h()},h(){document.title="My Resume",c(e,"property","og:type"),c(e,"content","my resume"),c(t,"property","og:title"),c(t,"content","My Resume"),c(s,"class","container main-wrapper svelte-dcn5gn")},m(n,l){m(document.head,e),m(document.head,t),p(n,i,l),p(n,s,l)},p:o,i:o,o,d(n){n&&(a(i),a(s)),a(e),a(t)}}}class J extends u{constructor(e){super(),w(this,e,null,k,h,{})}}export{J as component};

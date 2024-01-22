@@ -16,9 +16,9 @@
 				</p>
 				<p>
 					Proven expertise in Agile practices, leading teams to deliver complete solutions,
-					migrating services, and developing core products. I translate software ideas into
-					practical products that solve real-life problems, contributing to business value creation
-					and revenue growth.
+					migrating services, and developing core products. Translate software ideas into practical
+					products that solve real-life problems, contributing to business value creation and
+					revenue growth.
 				</p>
 			</div>
 		</article>
@@ -220,12 +220,11 @@
 
 		<ul>
 			<li>
-				<strong>Postgraduate, Mobile Solutions Development:</strong> Conestoga College, ON, Waterloo,
-				Canada. - Ongoing
+				<strong>Postgraduate, Mobile Solutions Development (2023 - DEC 2024):</strong> Conestoga College,
+				ON, Waterloo, Canada.
 			</li>
 			<li>
-				<strong>Bachelors of Science, Computer Engineering:</strong> Obafemi Awolowo University, Ile-Ife,
-				Nigeria.
+				<strong>Bachelor, Computer Engineering:</strong> Obafemi Awolowo University, Ile-Ife, Nigeria.
 			</li>
 		</ul>
 
@@ -256,12 +255,6 @@
 </div>
 
 <style>
-	/* img {
-		width: 100%;
-		max-width: 100%;
-		display: block;
-	} */
-
 	h1,
 	h2,
 	h3 {
