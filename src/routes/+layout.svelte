@@ -13,8 +13,8 @@
 		<nav>
 			<a href={`${base}/`} title="Home - About me" class:active={path === '/'}>Home</a>
 			<a href={`${base}/resume`} title="My Resume" class:active={path === '/resume'}>Resume</a>
-			<a href={`${base}/projects`} title="My Projects" class:active={path === '/projects'}
-				>Projects</a
+			<a href={`${base}/portfolio`} title="My Portfolio" class:active={path === '/portfolio'}
+				>Portfolios</a
 			>
 		</nav>
 	</section>
@@ -27,8 +27,8 @@
 		<nav>
 			<a href={`${base}/`} title="Home - About me" class:active={path === '/'}>Home</a>
 			<a href={`${base}/resume`} title="My Resume" class:active={path === '/resume'}>Resume</a>
-			<a href={`${base}/projects`} title="My Projects" class:active={path === '/projects'}
-				>Projects</a
+			<a href={`${base}/portfolio`} title="My Portfolio" class:active={path === '/portfolio'}
+				>Portfolios</a
 			>
 		</nav>
 	</section>

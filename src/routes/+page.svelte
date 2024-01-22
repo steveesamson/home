@@ -1,17 +1,21 @@
 <svelte:head>
-	<title>About me</title>
+	<title>About Me</title>
 	<meta property="og:type" content="about me" />
 	<meta property="og:title" content="About me" />
 </svelte:head>
 
-<h1>About me</h1>
+<h1>About Me</h1>
 <article class="summary">
+	<div class="summary-image">
+		<!-- svelte-ignore a11y-img-redundant-alt -->
+		<img src="images/steve_samson.jpg" alt="My photo" title="My photo" />
+	</div>
 	<div class="summary-text">
 		<p>
-			Hi, I am Steve S. Samson. I am a full-stack software engineer. I help companies translate
-			software ideas to products and services guaranteed to be performant and bug-free, thereby
-			eliminating support costs and allowing companies to concentrate on ideation/product
-			developments that increase their revenue.
+			I am Steve S. Samson, a full-stack software engineer. I help companies translate software
+			ideas to products and services guaranteed to be performant and bug-free, thereby eliminating
+			support costs and allowing companies to concentrate on ideation/product developments that
+			increase their revenue.
 		</p>
 		<p>
 			These past 7+ years I had spent developing products and services and improving company
@@ -59,9 +63,28 @@
 		margin-block-end: 1.5rem;
 		padding-block-end: 1.5rem;
 	}
+	img {
+		width: 100%;
+		max-width: 100%;
+		display: block;
+	}
 
-	.summary-text p {
+	.summary-image {
+		width: 240px;
+		text-align: center;
+		margin: 1rem auto;
+	}
+
+	.summary-image img {
+		/* margin-block-start: 1.5rem; */
+		border-radius: 8px;
+		box-shadow: 0px 1px 4px rgba(32, 32, 32, 0.25);
+	}
+
+	.summary p {
 		line-height: 1.75;
+		margin-block-end: 1.2rem;
+		text-align: justify;
 	}
 
 	.abouts h2 {
@@ -78,8 +101,25 @@
 			display: flex;
 			flex-direction: row;
 		}
+
+		.summary-image {
+			margin: unset;
+			text-align: unset;
+			margin-right: 1.5rem;
+		}
+
 		.summary-text {
 			flex: 1;
 		}
 	}
+
+	/* @media screen and (min-width: 500px) {
+		.summary {
+			display: flex;
+			flex-direction: row;
+		}
+		.summary-text {
+			flex: 1;
+		}
+	} */
 </style>

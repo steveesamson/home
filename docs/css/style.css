@@ -18,6 +18,7 @@ p,
 li {
     line-height: 1.65;
     font-size: 1rem;
+    text-align: justify;
 }
 
 h1,

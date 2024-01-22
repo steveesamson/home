@@ -8,11 +8,6 @@
 	<main>
 		<h1>Summary</h1>
 		<article class="summary">
-			<div class="summary-image">
-				<!-- svelte-ignore a11y-img-redundant-alt -->
-				<img src="images/steve_samson.jpg" alt="My photo" title="My photo" />
-				<!-- Photo by me: used on my One Card -->
-			</div>
 			<div class="summary-text">
 				<p>
 					Results-driven software engineer with over a decade of experience designing and
@@ -261,11 +256,11 @@
 </div>
 
 <style>
-	img {
+	/* img {
 		width: 100%;
 		max-width: 100%;
 		display: block;
-	}
+	} */
 
 	h1,
 	h2,
@@ -297,20 +292,9 @@
 		text-align: left;
 	}
 
-	.summary-image {
-		width: 140px;
-		text-align: center;
-		margin: 1rem auto;
-	}
-
-	.summary-image img {
-		margin-block-start: 1.5rem;
-		border-radius: 8px;
-		box-shadow: 0px 2px 8px rgba(32, 32, 32, 0.25);
-	}
-
 	.summary-text p {
 		line-height: 1.75;
+		margin-block-end: 1.5rem;
 	}
 
 	.experiences {
@@ -377,28 +361,13 @@
 	aside li {
 		margin-top: 2rem;
 		line-height: 1.7;
+		text-align: left;
 	}
 
 	aside strong {
 		color: #5cc2fc;
 	}
 
-	@media screen and (min-width: 500px) {
-		.summary {
-			display: flex;
-			flex-direction: row;
-		}
-
-		.summary-image {
-			margin: unset;
-			text-align: unset;
-			margin-right: 1.5rem;
-		}
-
-		.summary-text {
-			flex: 1;
-		}
-	}
 	@media screen and (min-width: 838px) {
 		.main-wrapper {
 			grid-template-columns: 7fr 3fr;

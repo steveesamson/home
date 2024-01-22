@@ -1,10 +1,10 @@
 <svelte:head>
-	<title>My Projects</title>
-	<meta property="og:type" content="my projects" />
-	<meta property="og:title" content="My Projects" />
+	<title>My Portfolios</title>
+	<meta property="og:type" content="my portfolios" />
+	<meta property="og:title" content="My Portfolios" />
 </svelte:head>
 
-<h1>My Projects</h1>
+<h1>Portfolios</h1>
 <article class="summary">
 	<p>
 		The following is a list of some projects (mostly personal, I have no permissions to share
@@ -18,7 +18,8 @@
 			<strong> <a href="https://totstream.com" target="_blank">TotStream</a>:</strong> TotStream is
 			the place for everyone with an occupation to mentor, inspire, do business, learn, acquire new
 			skills, arrange a meet-up, team up, or just hang out to make an imprint in the digital space.
-			<strong>Technologies:</strong> Node.js, Svelte, Sapper, TypeScript, JavaScript, CSS, HTML.
+			<strong>Technologies:</strong> Node.js, Svelte, Sapper, Redis, Socket.io, Express.js, REST, API,
+			Worker, Event Bus, TypeScript, JavaScript, CSS, HTML.
 		</li>
 		<li>
 			<strong>
@@ -82,7 +83,7 @@
 		</li>
 		<li>
 			<strong>
-				<a href="https://github.com/steveesamson/redspace-swapi" target="_blank">redspace swapi</a
+				<a href="https://github.com/steveesamson/redspace-swapi" target="_blank">REDSpace swapi</a
 				>:</strong
 			>
 			This is a fullstack challenge implementation for `REDSpace Swapi`.
@@ -90,7 +91,7 @@
 		</li>
 		<li>
 			<strong>
-				<a href="https://github.com/steveesamson/fitbitz" target="_blank">fitbitz</a>:</strong
+				<a href="https://github.com/steveesamson/fitbitz" target="_blank">Fitbitz</a>:</strong
 			>
 			A simple app showcasing Apollo graphQL Server and Client, ApolloServer, Express and Knex with PostgreSQL.
 			<strong>Technologies:</strong> Node.js, GraphQL, React.js, Express.js, ApolloServer, TypeScript,

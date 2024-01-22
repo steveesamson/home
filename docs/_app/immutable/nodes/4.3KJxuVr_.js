@@ -1,26 +1,4 @@
-<!doctype html>
-<html lang="en">
-
-<head>
-	<meta charset="utf-8" />
-	<link rel="icon" href="./favicon.png" />
-	<link rel="stylesheet" href="./css/style.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	
-		<link href="./_app/immutable/assets/0.e_iDUQ2U.css" rel="stylesheet">
-		<link href="./_app/immutable/assets/4.Imqd7l75.css" rel="stylesheet">
-		<link rel="modulepreload" href="./_app/immutable/entry/start.1Pq8Q73j.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/entry.m_aptYeM.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.kAlY8CUs.js">
-		<link rel="modulepreload" href="./_app/immutable/entry/app.FIeSC67m.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/index.niZBfMVO.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/0.bkgrtFcM.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/stores.btDmtzpq.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/4.3KJxuVr_.js"><title>My Resume</title><!-- HEAD_svelte-g7p08j_START --><meta property="og:type" content="my resume"><meta property="og:title" content="My Resume"><!-- HEAD_svelte-g7p08j_END -->
-</head>
-
-<body data-sveltekit-preload-data="hover">
-	<div style="display: contents">  <header class="svelte-3cndcb"><section class="container svelte-3cndcb"><div data-svelte-h="svelte-1war6t"><strong class="svelte-3cndcb">Steve S. Samson</strong> <em class="svelte-3cndcb">- The Software Enthusiast -</em></div> <nav class="svelte-3cndcb"><a href="./" title="Home - About me" class="svelte-3cndcb" data-svelte-h="svelte-244p61">Home</a> <a href="./resume" title="My Resume" class="svelte-3cndcb active" data-svelte-h="svelte-urqa3h">Resume</a> <a href="./portfolio" title="My Portfolio" class="svelte-3cndcb" data-svelte-h="svelte-1g4blwv">Portfolios</a></nav></section></header> <main class="container"> <div class="container main-wrapper svelte-3txrtb" data-svelte-h="svelte-1mmo74b"><main class="svelte-3txrtb"><h1 class="svelte-3txrtb">Summary</h1> <article class="summary"><div class="summary-text svelte-3txrtb"><p class="svelte-3txrtb">Results-driven software engineer with over a decade of experience designing and
+import{s as h,n as o}from"../chunks/scheduler.kAlY8CUs.js";import{S as g,i as x,e as c,s as u,k as w,c as d,d as i,f as S,l as f,m as r,h as p,g as v}from"../chunks/index.niZBfMVO.js";function y(b){let e,l,n,t,m=`<main class="svelte-3txrtb"><h1 class="svelte-3txrtb">Summary</h1> <article class="summary"><div class="summary-text svelte-3txrtb"><p class="svelte-3txrtb">Results-driven software engineer with over a decade of experience designing and
 					implementing Frontend and Backend solutions using JavaScript, TypeScript, Node.js,
 					Express.js, React.js, and Svelte/SvelteKit.</p> <p class="svelte-3txrtb">Proven expertise in Agile practices, leading teams to deliver complete solutions,
 					migrating services, and developing core products. I translate software ideas into
@@ -52,32 +30,4 @@
 				Socket/socket.io, and Redis.</li> <li class="svelte-3txrtb"><strong class="svelte-3txrtb">DevOps:</strong> Linux Administration, Docker, Ansible, Git, Github, testing library,
 				Playwright, Jest, Cypress, Vite test</li> <li class="svelte-3txrtb"><strong class="svelte-3txrtb">Data Stores:</strong> MySQL, Oracle Database, PostgreSQL, MongoDB, Redis, Kafka</li></ul> <h3 class="svelte-3txrtb">Education</h3> <ul class="svelte-3txrtb"><li class="svelte-3txrtb"><strong class="svelte-3txrtb">Postgrad, Mobile Solutions Development:</strong> Conestoga College, ON, Waterloo, Canada.
 				- Ongoing</li> <li class="svelte-3txrtb"><strong class="svelte-3txrtb">B.Sc., Computer Engineering (2.1, 4.10/5.0 CGPA):</strong> Obafemi Awolowo University,
-				Ile-Ife, Nigeria.</li></ul> <h3 class="svelte-3txrtb">Contacts:</h3> <ul class="contacts svelte-3txrtb"><li class="svelte-3txrtb"><strong class="svelte-3txrtb">Email:</strong> stevee.samson@gmail.com</li> <li class="svelte-3txrtb"><strong class="svelte-3txrtb">LinkedIn:</strong> <a href="https://linkedin.com/in/steveesamson" target="_blank" class="svelte-3txrtb">linkedin.com/in/steveesamson</a></li> <li class="svelte-3txrtb"><strong class="svelte-3txrtb">Github:</strong> <a href="https://github.com/steveesamson" target="_blank" class="svelte-3txrtb">github.com/steveesamson</a></li> <li class="svelte-3txrtb"><strong class="svelte-3txrtb">X(twitter):</strong> @steveesamson</li> <li class="svelte-3txrtb"><strong class="svelte-3txrtb">Address:</strong> Waterloo, ON, Canada</li></ul></aside> </div></main> <footer class="svelte-3cndcb"><section class="container svelte-3cndcb"><nav class="svelte-3cndcb"><a href="./" title="Home - About me" class="svelte-3cndcb" data-svelte-h="svelte-244p61">Home</a> <a href="./resume" title="My Resume" class="svelte-3cndcb active" data-svelte-h="svelte-urqa3h">Resume</a> <a href="./portfolio" title="My Portfolio" class="svelte-3cndcb" data-svelte-h="svelte-1g4blwv">Portfolios</a></nav></section> <section class="container svelte-3cndcb">© 2019 - 2024, Steve S. Samson</section> </footer> 
-			
-			<script>
-				{
-					__sveltekit_1m6ssor = {
-						base: new URL(".", location).pathname.slice(0, -1)
-					};
-
-					const element = document.currentScript.parentElement;
-
-					const data = [null,null];
-
-					Promise.all([
-						import("./_app/immutable/entry/start.1Pq8Q73j.js"),
-						import("./_app/immutable/entry/app.FIeSC67m.js")
-					]).then(([kit, app]) => {
-						kit.start(app, element, {
-							node_ids: [0, 4],
-							data,
-							form: null,
-							error: null
-						});
-					});
-				}
-			</script>
-		</div>
-</body>
-
-</html>
+				Ile-Ife, Nigeria.</li></ul> <h3 class="svelte-3txrtb">Contacts:</h3> <ul class="contacts svelte-3txrtb"><li class="svelte-3txrtb"><strong class="svelte-3txrtb">Email:</strong> stevee.samson@gmail.com</li> <li class="svelte-3txrtb"><strong class="svelte-3txrtb">LinkedIn:</strong> <a href="https://linkedin.com/in/steveesamson" target="_blank" class="svelte-3txrtb">linkedin.com/in/steveesamson</a></li> <li class="svelte-3txrtb"><strong class="svelte-3txrtb">Github:</strong> <a href="https://github.com/steveesamson" target="_blank" class="svelte-3txrtb">github.com/steveesamson</a></li> <li class="svelte-3txrtb"><strong class="svelte-3txrtb">X(twitter):</strong> @steveesamson</li> <li class="svelte-3txrtb"><strong class="svelte-3txrtb">Address:</strong> Waterloo, ON, Canada</li></ul></aside>`;return{c(){e=c("meta"),l=c("meta"),n=u(),t=c("div"),t.innerHTML=m,this.h()},l(s){const a=w("svelte-g7p08j",document.head);e=d(a,"META",{property:!0,content:!0}),l=d(a,"META",{property:!0,content:!0}),a.forEach(i),n=S(s),t=d(s,"DIV",{class:!0,"data-svelte-h":!0}),f(t)!=="svelte-1mmo74b"&&(t.innerHTML=m),this.h()},h(){document.title="My Resume",r(e,"property","og:type"),r(e,"content","my resume"),r(l,"property","og:title"),r(l,"content","My Resume"),r(t,"class","container main-wrapper svelte-3txrtb")},m(s,a){p(document.head,e),p(document.head,l),v(s,n,a),v(s,t,a)},p:o,i:o,o,d(s){s&&(i(n),i(t)),i(e),i(l)}}}class J extends g{constructor(e){super(),x(this,e,null,y,h,{})}}export{J as component};
