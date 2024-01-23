@@ -1,27 +1,4 @@
-<!doctype html>
-<html lang="en">
-
-<head>
-	<meta charset="utf-8" />
-	<link rel="icon" href="./favicon.png" />
-	<link rel="stylesheet" href="./css/style.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	
-		<link href="./_app/immutable/assets/0.uhboGIMn.css" rel="stylesheet">
-		<link href="./_app/immutable/assets/4.lhNflFfS.css" rel="stylesheet">
-		<link rel="modulepreload" href="./_app/immutable/entry/start.q5wGqxp-.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/entry.oqveLlPz.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.kAlY8CUs.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/paths.60_GkpYp.js">
-		<link rel="modulepreload" href="./_app/immutable/entry/app.kCGocRgG.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/index.niZBfMVO.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/0.7fFRRD4B.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/stores.ieJYCA9s.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/4.s7UTxnca.js"><title>My Portfolios</title><!-- HEAD_svelte-14u66vx_START --><meta property="og:type" content="my portfolios"><meta property="og:title" content="My Portfolios"><!-- HEAD_svelte-14u66vx_END -->
-</head>
-
-<body data-sveltekit-preload-data="hover">
-	<div style="display: contents">  <header class="svelte-1idtf5q"><section class="container svelte-1idtf5q"><div class="svelte-1idtf5q" data-svelte-h="svelte-plxsk1"><strong class="svelte-1idtf5q">Steve S. Samson</strong> <em class="svelte-1idtf5q">The Software Enthusiast</em></div> <nav class="svelte-1idtf5q"><a href="./" title="Home - About me" class="svelte-1idtf5q" data-svelte-h="svelte-244p61">Home</a> <a href="./resume" title="My Resume" class="svelte-1idtf5q" data-svelte-h="svelte-urqa3h">Resume</a> <a href="./portfolio" title="My Portfolio" class="svelte-1idtf5q active" data-svelte-h="svelte-1g4blwv">Portfolios</a> <a href="./contacts" title="My Contacts" class="svelte-1idtf5q" data-svelte-h="svelte-ta52f1">Contact me</a></nav></section></header> <main class="container"> <h1 class="svelte-1j98gzt" data-svelte-h="svelte-14plfdl">Portfolios</h1> <article class="summary svelte-1j98gzt" data-svelte-h="svelte-hmzj9w"><p class="svelte-1j98gzt">The following is a list of some projects (mostly personal, I have no permissions to share
+import{s as y,n as v}from"../chunks/scheduler.kAlY8CUs.js";import{S as z,i as b,e as g,s as u,k as T,c as p,d as o,f as j,l as S,m as r,h as f,g as h}from"../chunks/index.niZBfMVO.js";function w(k){let s,i,n,t,m="Portfolios",c,a,d=`<p class="svelte-1j98gzt">The following is a list of some projects (mostly personal, I have no permissions to share
 		corporate ones.) I had worked on or implemented. <a href="https://www.github.com/steveesamson" class="svelte-1j98gzt">Check my repository</a> for an updated list.</p> <ol class="svelte-1j98gzt"><li class="svelte-1j98gzt"><a href="https://totstream.com" target="_blank" class="svelte-1j98gzt">TotStream</a>: TotStream is the place for
 			everyone with an occupation to mentor, inspire, do business, learn, acquire new skills,
 			arrange a meet-up, team up, or just hang out to make an imprint in the digital space.
@@ -48,40 +25,12 @@
 			It was developed to allow folks coming from relational databases background write expressive
 			queries with object interactions in mind. Inspired by Codeigniter Active Record.
 			<strong class="svelte-1j98gzt">Technologies:</strong>
-			Node.js, PostgreSQL, Database, JavaScript.</li> <li class="svelte-1j98gzt"><a href="https://github.com/steveesamson/secret-escapes-search" target="_blank" class="svelte-1j98gzt">Secret Escapes Search</a>: This is a fullstack challenge implementation for `Secret Escape Portal`.
+			Node.js, PostgreSQL, Database, JavaScript.</li> <li class="svelte-1j98gzt"><a href="https://github.com/steveesamson/secret-escapes-search" target="_blank" class="svelte-1j98gzt">Secret Escapes Search</a>: This is a fullstack challenge implementation for \`Secret Escape Portal\`.
 			<strong class="svelte-1j98gzt">Technologies:</strong> Docker, Node.js, GraphQL, React.js, TypeScript.</li> <li class="svelte-1j98gzt"><a href="https://github.com/steveesamson/redspace-swapi" target="_blank" class="svelte-1j98gzt">REDSpace swapi</a>:
-			This is a fullstack challenge implementation for `REDSpace Swapi`.
+			This is a fullstack challenge implementation for \`REDSpace Swapi\`.
 			<strong class="svelte-1j98gzt">Technologies:</strong> Docker, Node.js, Express.js, REST API, React.js, TypeScript.</li> <li class="svelte-1j98gzt"><a href="https://github.com/steveesamson/fitbitz" target="_blank" class="svelte-1j98gzt">Fitbitz</a>: A simple app
 			showcasing Apollo graphQL Server and Client, ApolloServer, Express and Knex with PostgreSQL.
 			<strong class="svelte-1j98gzt">Technologies:</strong> Node.js, GraphQL, React.js, Express.js, ApolloServer, TypeScript,
 			PostgreSQL.</li> <li class="svelte-1j98gzt"><a href="https://github.com/steveesamson/stud" target="_blank" class="svelte-1j98gzt">Stud</a>: A very simple and
 			fast template engine for compiling and rendering pre-compiled HTML templates in an
-			unopinionated fashion.<strong class="svelte-1j98gzt">Technologies:</strong> JavaScript.</li></ol> </article></main> <footer class="svelte-1idtf5q"><section class="container svelte-1idtf5q"><nav class="svelte-1idtf5q"><a href="./" title="Home - About me" class="svelte-1idtf5q" data-svelte-h="svelte-244p61">Home</a> <a href="./resume" title="My Resume" class="svelte-1idtf5q" data-svelte-h="svelte-urqa3h">Resume</a> <a href="./portfolio" title="My Portfolio" class="svelte-1idtf5q active" data-svelte-h="svelte-1g4blwv">Portfolios</a> <a href="./contacts" title="My Contacts" class="svelte-1idtf5q" data-svelte-h="svelte-ta52f1">Contact me</a></nav></section> <section class="container svelte-1idtf5q">© 2019 - 2024, Steve S. Samson</section> </footer> 
-			
-			<script>
-				{
-					__sveltekit_196fmux = {
-						base: new URL(".", location).pathname.slice(0, -1)
-					};
-
-					const element = document.currentScript.parentElement;
-
-					const data = [null,null];
-
-					Promise.all([
-						import("./_app/immutable/entry/start.q5wGqxp-.js"),
-						import("./_app/immutable/entry/app.kCGocRgG.js")
-					]).then(([kit, app]) => {
-						kit.start(app, element, {
-							node_ids: [0, 4],
-							data,
-							form: null,
-							error: null
-						});
-					});
-				}
-			</script>
-		</div>
-</body>
-
-</html>
+			unopinionated fashion.<strong class="svelte-1j98gzt">Technologies:</strong> JavaScript.</li></ol>`;return{c(){s=g("meta"),i=g("meta"),n=u(),t=g("h1"),t.textContent=m,c=u(),a=g("article"),a.innerHTML=d,this.h()},l(e){const l=T("svelte-14u66vx",document.head);s=p(l,"META",{property:!0,content:!0}),i=p(l,"META",{property:!0,content:!0}),l.forEach(o),n=j(e),t=p(e,"H1",{class:!0,"data-svelte-h":!0}),S(t)!=="svelte-14plfdl"&&(t.textContent=m),c=j(e),a=p(e,"ARTICLE",{class:!0,"data-svelte-h":!0}),S(a)!=="svelte-hmzj9w"&&(a.innerHTML=d),this.h()},h(){document.title="My Portfolios",r(s,"property","og:type"),r(s,"content","my portfolios"),r(i,"property","og:title"),r(i,"content","My Portfolios"),r(t,"class","svelte-1j98gzt"),r(a,"class","summary svelte-1j98gzt")},m(e,l){f(document.head,s),f(document.head,i),h(e,n,l),h(e,t,l),h(e,c,l),h(e,a,l)},p:v,i:v,o:v,d(e){e&&(o(n),o(t),o(c),o(a)),o(s),o(i)}}}class M extends z{constructor(s){super(),b(this,s,null,w,y,{})}}export{M as component};

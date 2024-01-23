@@ -8,13 +8,16 @@
 	<section class="container">
 		<div>
 			<strong>Steve S. Samson</strong>
-			<em>- The Software Enthusiast -</em>
+			<em>The Software Enthusiast</em>
 		</div>
 		<nav>
 			<a href={`${base}/`} title="Home - About me" class:active={path === '/'}>Home</a>
 			<a href={`${base}/resume`} title="My Resume" class:active={path === '/resume'}>Resume</a>
 			<a href={`${base}/portfolio`} title="My Portfolio" class:active={path === '/portfolio'}
 				>Portfolios</a
+			>
+			<a href={`${base}/contacts`} title="My Contacts" class:active={path === '/contacts'}
+				>Contact me</a
 			>
 		</nav>
 	</section>
@@ -29,6 +32,9 @@
 			<a href={`${base}/resume`} title="My Resume" class:active={path === '/resume'}>Resume</a>
 			<a href={`${base}/portfolio`} title="My Portfolio" class:active={path === '/portfolio'}
 				>Portfolios</a
+			>
+			<a href={`${base}/contacts`} title="My Contacts" class:active={path === '/contacts'}
+				>Contact me</a
 			>
 		</nav>
 	</section>
@@ -55,25 +61,44 @@
 		text-align: center;
 	}
 
-	header > section {
-		display: flex;
-		align-items: center;
-		flex-direction: row;
-		justify-content: space-between;
-	}
 	header strong {
-		font-size: clamp(1rem, 5vw, 2.5rem);
-		font-weight: 200;
+		font-size: clamp(2.5rem, 5vw, 2.5rem);
+		font-weight: 600;
 		color: #142f49;
-		text-align: left;
+		text-align: center;
+		font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 	}
 	header em {
 		display: block;
 		text-align: center;
 		font-style: normal;
-		text-align: left;
-		color: #5b7185;
+		text-align: center;
+		color: #3f5c7b;
 	}
+
+	header > section > * {
+		display: block;
+		text-align: center;
+		margin-block-start: 1rem;
+	}
+	@media screen and (min-width: 40em) {
+		header > section > * {
+			display: unset;
+			text-align: left;
+			margin-block-start: unset;
+		}
+		header em,
+		header strong {
+			text-align: left;
+		}
+		header > section {
+			display: flex;
+			align-items: center;
+			flex-direction: row;
+			justify-content: space-between;
+		}
+	}
+
 	nav {
 		display: flex;
 		flex-direction: row;

@@ -8,7 +8,7 @@
 	<meta property="og:title" content="About me" />
 </svelte:head>
 
-<h1>About Me</h1>
+<h1>About me</h1>
 <article class="summary">
 	<div class="summary-image">
 		<!-- svelte-ignore a11y-img-redundant-alt -->
@@ -39,20 +39,6 @@
 		</p>
 	</div>
 </article>
-
-<!-- <article class="abouts">
-	<h2>About my country, Nigeria</h2>
-	<p>
-		Nigeria is located on the west coast of Africa and is the most populous black country in the
-		world, bordering the North Atlantic Ocean, between Benin and Cameroon.
-	</p>
-	<p>
-		Nigeria is diverse in people and culture with the major languages being Ibo in the south-east,
-		Yoruba in the south-west and Hausa in the north. However, the one common language that everyone
-		speaks is Pidgin and we created Afrobeats!
-	</p>
-</article> -->
-
 <article class="abouts">
 	<h2>Hobbies</h2>
 	<p>
@@ -115,11 +101,6 @@
 	}
 
 	@media screen and (min-width: 600px) {
-		/* .summary {
-			display: flex;
-			flex-direction: row;
-		} */
-
 		.summary-image {
 			margin: unset;
 			text-align: unset;
