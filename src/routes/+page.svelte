@@ -67,7 +67,9 @@
 		color: #1b3659;
 		font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 	}
-
+	.summary {
+		display: block;
+	}
 	article {
 		margin-block-end: 1.5rem;
 		padding-block-end: 1.5rem;
@@ -85,9 +87,9 @@
 	}
 
 	.summary-image img {
-		/* margin-block-start: 1.5rem; */
-		border-radius: 8px;
+		border-radius: 5px;
 		box-shadow: 0px 1px 4px rgba(32, 32, 32, 0.25);
+		border: 1px solid #ccc;
 	}
 
 	.summary p {
@@ -112,30 +114,23 @@
 		font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	}
 
-	@media screen and (min-width: 500px) {
-		.summary {
+	@media screen and (min-width: 600px) {
+		/* .summary {
 			display: flex;
 			flex-direction: row;
-		}
+		} */
 
 		.summary-image {
 			margin: unset;
 			text-align: unset;
 			margin-right: 1.5rem;
+
+			margin-inline-end: 1.5rem;
+			float: left;
 		}
 
 		.summary-text {
 			flex: 1;
 		}
 	}
-
-	/* @media screen and (min-width: 500px) {
-		.summary {
-			display: flex;
-			flex-direction: row;
-		}
-		.summary-text {
-			flex: 1;
-		}
-	} */
 </style>
