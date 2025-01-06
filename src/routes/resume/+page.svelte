@@ -155,7 +155,7 @@
 					</li>
 				</ul>
 			</article>
-			<article class="experience one-liner">
+			<!-- <article class="experience one-liner">
 				<h3>
 					Technical Specialist <em>| SEP 2012 – AUG 2013</em><small
 						>Visafone Communications Ltd., Nigeria - <a href="http://www.mtn.ng" target="_blank"
@@ -191,7 +191,7 @@
 						></small
 					>
 				</h3>
-			</article>
+			</article> -->
 		</section>
 	</main>
 	<aside>
