@@ -180,11 +180,11 @@
 				<h3 class="card-title">Skills</h3>
 				{@render listSkills()}
 				<h3 class="card-title">Education</h3>
-				<div class="timeline-item">
+				<div class="timeline-item edu">
 					<div class="timeline-title">Postgraduate, Mobile Solutions Development</div>
 					<div class="timeline-company">Conestoga College, ON, Waterloo, Canada.</div>
 				</div>
-				<div class="timeline-item">
+				<div class="timeline-item edu">
 					<div class="timeline-title">Bachelor, Computer Engineering</div>
 					<div class="timeline-company">Obafemi Awolowo University, Nigeria.</div>
 				</div>
@@ -196,5 +196,8 @@
 <style>
 	li {
 		padding-block: 0.35rem;
+	}
+	:global(.timeline-item.edu) {
+		margin-inline-start: 1.5rem;
 	}
 </style>

@@ -48,7 +48,7 @@
 {#snippet listValues()}
 	{#each values as val (val.title)}
 		<div style="margin-bottom: 1.5rem;" animate:flip>
-			<strong style="color: var(--primary);">{val.title}</strong>
+			<strong style="color: var(--secondary);">{val.title}</strong>
 			<div style="margin-top: 0.5rem;">{val.content}</div>
 		</div>
 	{/each}

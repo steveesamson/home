@@ -1,11 +1,13 @@
-import { writable } from 'svelte/store';
 import { browser } from '$app/environment';
 
 function createThemeStore() {
-    const { subscribe, set } = writable('light');
+    // const { subscribe, set } = writable('light');
+    let active = $state('light');
 
     return {
-        subscribe,
+        get current() {
+            return active;
+        },
         toggle: () => {
             if (browser) {
                 const currentTheme = document.documentElement.getAttribute('data-theme') || 'light';
@@ -13,20 +15,20 @@ function createThemeStore() {
 
                 document.documentElement.setAttribute('data-theme', newTheme);
                 localStorage.setItem('theme', newTheme);
-                set(newTheme);
+                active = newTheme;
             }
         },
         init: (oldTheme?: string) => {
             if (browser) {
                 if (oldTheme) {
                     document.documentElement.setAttribute('data-theme', oldTheme);
-                    set(oldTheme);
+                    active = oldTheme;
                 } else {
                     const savedTheme = localStorage.getItem('theme') ||
                         (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
 
                     document.documentElement.setAttribute('data-theme', savedTheme);
-                    set(savedTheme);
+                    active = savedTheme;
                 }
 
             }

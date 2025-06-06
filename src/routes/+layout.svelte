@@ -1,8 +1,9 @@
 <script lang="ts">
-	import { theme } from '$lib/theme.js';
+	import { theme } from '$lib/theme.svelte.js';
 	import { page } from '$app/state';
 	import { onMount } from 'svelte';
 	import { base } from '$app/paths';
+	import Icon from '$lib/icon.svelte';
 
 	let { children, data } = $props();
 
@@ -44,7 +45,7 @@
 		content="Modern professional portfolio showcasing creative digital experiences"
 	/>
 </svelte:head>
-<!-- Navigation -->
+
 <nav class="nav" style:transform={navHidden ? 'translateY(-100%)' : 'translateY(0)'}>
 	<div class="nav-container">
 		<a href={`${base}/`} class="logo">Steve S. Samson</a>
@@ -65,13 +66,7 @@
 			</li>
 			<li>
 				<button class="theme-switcher" onclick={theme.toggle} aria-label="Toggle theme">
-					<span class="theme-icon">
-						{#if $theme === 'light'}
-							🌙
-						{:else}
-							☀️
-						{/if}
-					</span>
+					<Icon type={theme.current as 'light' | 'dark'} />
 				</button>
 			</li>
 		</ul>

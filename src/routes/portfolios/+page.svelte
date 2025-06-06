@@ -97,7 +97,7 @@
 {#snippet listPortfolios()}
 	{#each portfolios as next (next.title)}
 		<div class="card" animate:flip>
-			<div class="card-title">{next.title}</div>
+			<div class="card-title porfolio">{next.title}</div>
 			<div class="card-content">
 				<p>{next.content}</p>
 				<p><strong>Technologies:</strong> {next.tech}</p>
@@ -124,5 +124,8 @@
 	}
 	.card :global(.custom-link .nav-link) {
 		color: var(--text-secondary);
+	}
+	.card :global(.card-title.porfolio) {
+		color: var(--primary);
 	}
 </style>
