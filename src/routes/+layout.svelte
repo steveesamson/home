@@ -2,6 +2,7 @@
 	import { theme } from '$lib/theme.js';
 	import { page } from '$app/state';
 	import { onMount } from 'svelte';
+	import { base } from '$app/paths';
 
 	let { children, data } = $props();
 
@@ -32,7 +33,7 @@
 	});
 
 	function isActive(path: string) {
-		return page.url.pathname === path;
+		return page.url.pathname === `${base}${path}`;
 	}
 </script>
 
@@ -46,18 +47,22 @@
 <!-- Navigation -->
 <nav class="nav" style:transform={navHidden ? 'translateY(-100%)' : 'translateY(0)'}>
 	<div class="nav-container">
-		<a href="/" class="logo">Steve S. Samson</a>
+		<a href={`${base}/`} class="logo">Steve S. Samson</a>
 		<ul class="nav-links">
-			<li><a href="/" class={{ 'nav-link': true, active: isActive('/') }}>Home</a></li>
+			<li><a href={`${base}/`} class={{ 'nav-link': true, active: isActive('/') }}>Home</a></li>
 			<li>
-				<a href="/portfolios" class={{ 'nav-link': true, active: isActive('/portfolios') }}
+				<a href={`${base}/portfolios`} class={{ 'nav-link': true, active: isActive('/portfolios') }}
 					>Portfolio</a
 				>
 			</li>
 			<li>
-				<a href="/resume" class={{ 'nav-link': true, active: isActive('/resume') }}>Resume</a>
+				<a href={`${base}/resume`} class={{ 'nav-link': true, active: isActive('/resume') }}
+					>Resume</a
+				>
 			</li>
-			<li><a href="/about" class={{ 'nav-link': true, active: isActive('/about') }}>About</a></li>
+			<li>
+				<a href={`${base}/about`} class={{ 'nav-link': true, active: isActive('/about') }}>About</a>
+			</li>
 			<li>
 				<button class="theme-switcher" onclick={theme.toggle} aria-label="Toggle theme">
 					<span class="theme-icon">

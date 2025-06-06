@@ -184,7 +184,7 @@ body {
     background: var(--bg-primary);
     border-radius: 1rem;
     padding: 2rem;
-    box-shadow: 0 4px 20px var(--shadow);
+    /* box-shadow: 0 4px 20px var(--shadow); */
     border: 1px solid var(--border);
     transition: all 0.3s ease;
     margin-bottom: 2rem;

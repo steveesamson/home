@@ -192,3 +192,9 @@
 		</div>
 	</div>
 </section>
+
+<style>
+	li {
+		padding-block: 0.35rem;
+	}
+</style>

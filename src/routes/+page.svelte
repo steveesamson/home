@@ -1,4 +1,5 @@
 <script>
+	import { base } from '$app/paths';
 	import { flip } from 'svelte/animate';
 
 	const skills = [
@@ -49,7 +50,7 @@
 				and services, shrinking support costs and allowing companies concentrate on ideation/product
 				developments that improve their revenue.
 			</p>
-			<a class="cta-button" href="/portfolios">View Portfolios</a>
+			<a class="cta-button" href={`${base}/portfolios`}>View Portfolios</a>
 		</div>
 	</div>
 </section>
