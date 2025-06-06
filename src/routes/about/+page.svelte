@@ -1,0 +1,76 @@
+<svelte:head>
+	<title>About Me</title>
+	<meta name="description" content="Learn about my story, values, and approach to development" />
+</svelte:head>
+
+<section class="section">
+	<div class="container">
+		<h2 class="section-title">About</h2>
+		<div class="grid grid-2">
+			<div class="card">
+				<div class="card-title">Me</div>
+				<div class="card-content">
+					<p style="margin-bottom: 1rem;">
+						I help companies translate software ideas to products and services guaranteed to be
+						performant and bug-free, thereby eliminating support costs and allowing companies to
+						concentrate on ideation/product developments that increase their revenue.
+					</p>
+					<p style="margin-bottom: 1rem;">
+						These past 7+ years I had spent developing products and services and improving company
+						processes, enabling them to increase revenue by close to 45% while cutting support cost
+						to 0% and, at the same time, improving process TAT to near-realtime by ensuring they
+						ship bug-free and testable software all the time.
+					</p>
+					<p>
+						I am available for a good course - helping people learn software/technology, assisting
+						in building products/services that bring comfort to people, helping rescue businesses by
+						using technology, and ultimately learning some new ropes along the path.
+					</p>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-title">Values & Approach</div>
+				<div class="card-content">
+					<div style="margin-bottom: 1.5rem;">
+						<strong style="color: var(--primary);">User-Centered Design</strong>
+						<div style="margin-top: 0.5rem;">
+							Every decision I make starts with understanding the user's needs and creating
+							intuitive experiences.
+						</div>
+					</div>
+					<div style="margin-bottom: 1.5rem;">
+						<strong style="color: var(--primary);">Continuous Learning</strong>
+						<div style="margin-top: 0.5rem;">
+							Technology evolves rapidly, and I'm committed to staying current with the latest
+							trends and best practices.
+						</div>
+					</div>
+					<div>
+						<strong style="color: var(--primary);">Quality & Performance</strong>
+						<div style="margin-top: 0.5rem;">
+							I believe in writing clean, maintainable code that performs well and stands the test
+							of time.
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="card" style="margin-top: 2rem; text-align: center;">
+			<div class="card-title">Let's Connect</div>
+			<div class="card-content" style="margin-bottom: 2rem;">
+				I'm always interested in discussing new opportunities, collaborating on interesting
+				projects, or simply connecting with fellow developers. Get in touch via:
+				<a href="https://www.linkedin.com/in/steveesamson" target="_blank">Linkedin</a>,
+				<a href="https://www.github.com/steveesamson" target="_blank">Github</a>,
+				<a href="https://x.com/steveesamson" target="_blank">X(twitter)</a>
+			</div>
+		</div>
+	</div>
+</section>
+
+<style>
+	a {
+		color: var(--primary);
+		font-weight: bold;
+	}
+</style>
