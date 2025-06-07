@@ -4,18 +4,21 @@
 
 	const skills = [
 		{
+			key: 'fd',
 			title: 'Frontend Development',
 			content: `I craft fast, accessible, and visually engaging web interfaces that turn complex ideas
 					into intuitive user experiences. From responsive design to seamless API integration, I
 					build the frontend your users will love — and your backend will thank me for.`
 		},
 		{
+			key: 'fs',
 			title: 'Full-Stack Solutions',
 			content: `I'm a fullstack engineer who designs and builds modern web applications from the ground up
 					— frontend to backend. I specialize in delivering fast, scalable, and maintainable
 					solutions that bring ideas to life and keep users coming back.`
 		},
 		{
+			key: 'si',
 			title: 'System Integration',
 			content: `I'm a software integration engineer who thrives at the intersection of systems and
 					strategy. I specialize in connecting complex applications, streamlining data flows, and
@@ -31,9 +34,9 @@
 </svelte:head>
 
 {#snippet listSkills()}
-	{#each skills as skill (skill.title)}
-		<div class="card" animate:flip>
-			<div class="card-title">{skill.title}</div>
+	{#each skills as skill (skill.key)}
+		<div class={['card skill', skill.key]} animate:flip>
+			<div class="card-title home">{skill.title}</div>
 			<div class="card-content">{skill.content}</div>
 		</div>
 	{/each}
@@ -63,3 +66,15 @@
 		</div>
 	</div>
 </section>
+
+<style>
+	.card :global(.card-title.home) {
+		color: var(--primary);
+	}
+	/* :global(.card.skill.fd) {
+		transform: rotate(-5deg);
+	}
+	:global(.card.skill.si) {
+		transform: rotate(5deg);
+	} */
+</style>

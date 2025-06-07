@@ -37,7 +37,7 @@
 
 {#snippet aboutMe()}
 	<div class="card">
-		<div class="card-title">{about.title}</div>
+		<div class="card-title about">{about.title}</div>
 		<div class="card-content">
 			{#each about.contents as line}
 				<p style="margin-bottom: 1.5rem;">{line}</p>
@@ -64,14 +64,14 @@
 		<div class="grid grid-2">
 			{@render aboutMe()}
 			<div class="card">
-				<div class="card-title">Values & Goals</div>
+				<div class="card-title about">Values & Goals</div>
 				<div class="card-content">
 					{@render listValues()}
 				</div>
 			</div>
 		</div>
 		<div class="card" style="margin-top: 2rem; text-align: center;">
-			<div class="card-title">Let's Connect</div>
+			<div class="card-title about">Let's Connect</div>
 			<div class="card-content" style="margin-bottom: 2rem;">
 				I'm always interested in discussing new opportunities, collaborating on interesting
 				projects, or simply connecting with fellow developers. Get in touch via:
@@ -87,5 +87,8 @@
 	a {
 		color: var(--primary);
 		font-weight: bold;
+	}
+	.card :global(.card-title.about) {
+		color: var(--primary);
 	}
 </style>

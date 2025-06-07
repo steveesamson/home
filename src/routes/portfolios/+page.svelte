@@ -96,16 +96,16 @@
 
 {#snippet listPortfolios()}
 	{#each portfolios as next (next.title)}
-		<div class="card" animate:flip>
+		<a class="card" href={next.url} target="_blank" animate:flip>
 			<div class="card-title porfolio">{next.title}</div>
 			<div class="card-content">
 				<p>{next.content}</p>
 				<p><strong>Technologies:</strong> {next.tech}</p>
 				<p class="custom-link">
-					<a class="nav-link active" href={next.url} target="_blank">&raquo; More information</a>
+					<span class="nav-link active">&raquo; More information</span>
 				</p>
 			</div>
-		</div>
+		</a>
 	{/each}
 {/snippet}
 
@@ -119,6 +119,9 @@
 </section>
 
 <style>
+	:global(a.card) {
+		text-decoration: none;
+	}
 	.card :global(.custom-link) {
 		margin-top: 1rem;
 	}
